@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PixelgridComponent } from './pixelgrid/pixelgrid.component';
+import { TileComponent } from './tile/tile.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PixelgridComponent,
+    TileComponent
   ],
   imports: [
     BrowserModule,
